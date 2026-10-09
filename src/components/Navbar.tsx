@@ -52,7 +52,7 @@ export default function Navbar() {
                 Visionary Prints
               </span>
               <span className="text-[10px] tracking-widest uppercase text-slate-400 font-semibold">
-                Digital & Publishing
+                Creator Product Studio
               </span>
             </div>
           </Link>
@@ -77,7 +77,7 @@ export default function Navbar() {
               className="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-xs font-semibold rounded-full group bg-gradient-to-r from-indigo-500 via-violet-600 to-cyan-500 hover:shadow-lg hover:shadow-indigo-500/25 transition-all duration-300"
             >
               <span className="relative px-5 py-2.5 transition-all ease-out bg-slate-950 rounded-full group-hover:bg-opacity-0 text-white flex items-center gap-2">
-                <span>Work With Us</span>
+                <span>Launch Your Product</span>
                 <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
               </span>
             </a>
@@ -120,7 +120,7 @@ export default function Navbar() {
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white font-medium text-sm shadow-lg shadow-indigo-600/30"
               >
-                <span>Work With Us</span>
+                <span>Launch Your Product</span>
                 <ArrowRight className="w-4 h-4" />
               </a>
               <a

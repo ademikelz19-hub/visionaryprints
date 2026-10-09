@@ -7,74 +7,74 @@ export default function Services() {
     {
       id: "web-dev",
       title: "Web Development",
-      category: "Full-Stack & Performance",
+      category: "Creator Storefronts & Apps",
       description:
-        "High-performance, modern websites and web applications built with Next.js, React, and Tailwind CSS. We deliver lightning-fast load times, flawless responsiveness, and interfaces engineered for conversions.",
+        "High-performance Next.js and React web applications built to monetize your creator audience. We craft custom digital product storefronts, membership portals, and high-converting checkout funnels with zero platform friction.",
       icon: Code2,
       accentColor: "from-blue-500 to-indigo-600",
       glowColor: "rgba(59, 130, 246, 0.15)",
       badgeBg: "bg-blue-500/10 text-blue-400 border-blue-500/20",
       deliverables: [
-        "Custom Next.js & React Web Apps",
-        "Mobile-First Responsive Design",
-        "SEO Architecture & Core Web Vitals",
-        "Conversion-Optimized Landing Pages",
+        "Custom Next.js & React Digital Storefronts",
+        "High-Converting Sales Funnels & Checkout",
+        "Digital Download Portals & Member Areas",
+        "Sub-Second Load Times & Mobile Optimization",
       ],
-      ctaText: "Request Web Proposal",
+      ctaText: "Build Your Storefront",
     },
     {
       id: "digital-publishing",
       title: "Digital Publishing",
-      category: "Amazon KDP & Global Distribution",
+      category: "Amazon KDP & Global Books",
       description:
-        "End-to-end publishing solutions for independent authors and brands. From children's activity books to specialty journals, we manage formatting, cover artwork, and global print-on-demand deployment on Amazon KDP.",
+        "Turn your creator brand or original idea into a tangible, bestselling book on Amazon KDP. From activity books and children's stories to workbooks and guided journals, we handle formatting, cover art, and global print-on-demand deployment.",
       icon: BookOpenCheck,
       accentColor: "from-purple-500 to-violet-600",
       glowColor: "rgba(168, 85, 247, 0.15)",
       badgeBg: "bg-purple-500/10 text-purple-400 border-purple-500/20",
       deliverables: [
-        "Amazon KDP Formatting (Paperback & E-Book)",
-        "Premium Illustrated Cover & Interior Art",
-        "Barcode, Metadata & Amazon SEO Ranking",
-        "Children's Books, Activity Puzzles & Journals",
+        "Amazon KDP Turnkey Setup (Paperback & Kindle)",
+        "Illustrated Book Cover & Interior Layout",
+        "Activity Books, Workbooks, Journals & Guides",
+        "Global Amazon Distribution & Prime Shipping",
       ],
       ctaText: "Publish on Amazon",
     },
     {
       id: "video-editing",
       title: "Short-Form Video Editing",
-      category: "Viral Retention & Social Media",
+      category: "Viral Traffic for Digital Products",
       description:
-        "Dynamic, high-retention video editing engineered for TikTok, Instagram Reels, and YouTube Shorts. We apply psychological pacing, kinetic subtitles, and sound design to turn casual scrollers into loyal followers.",
+        "Dynamic, high-retention video editing designed to drive massive organic traffic to your digital products and books. We create viral TikToks, Instagram Reels, and YouTube Shorts with hook engineering, subtitles, and psychological pacing.",
       icon: Video,
       accentColor: "from-cyan-500 to-blue-600",
       glowColor: "rgba(6, 182, 212, 0.15)",
       badgeBg: "bg-cyan-500/10 text-cyan-400 border-cyan-500/20",
       deliverables: [
-        "TikTok, Reels & Shorts Native 9:16",
-        "Attention-Capturing 3-Second Hooks",
-        "Kinetic Typography & Captions",
-        "Sound Effects (SFX) & Color Grading",
+        "TikTok, Reels & Shorts Native 9:16 Formats",
+        "Attention-Snatching 3-Second Hooks & SFX",
+        "Product Callouts & Conversion Links",
+        "Consistent Batch Production for Daily Output",
       ],
-      ctaText: "Supercharge Video Reach",
+      ctaText: "Scale Your Traffic",
     },
     {
       id: "content-creation",
       title: "Content Creation",
-      category: "Creative Direction & Brand Assets",
+      category: "Digital Product Packaging",
       description:
-        "Comprehensive media assets and brand narratives that elevate your digital authority. We formulate compelling copy, digital marketing materials, and high-impact visual campaigns that drive measurable action.",
+        "Transform raw ideas into high-ticket digital assets. We design downloadable guides, printable workbooks, course visual assets, and persuasive copy that establish instant creator credibility and maximize average order value.",
       icon: Sparkles,
       accentColor: "from-amber-500 to-rose-500",
       glowColor: "rgba(245, 158, 11, 0.15)",
       badgeBg: "bg-amber-500/10 text-amber-400 border-amber-500/20",
       deliverables: [
-        "Brand Storytelling & Pitch Assets",
-        "Social Media Campaign Graphics",
-        "Digital Product Design & Lead Magnets",
-        "High-Converting Sales & Email Copy",
+        "Digital Product Design (E-books & Workbooks)",
+        "High-Converting Sales Page Copywriting",
+        "Promotional Mockups & Social Creative Kits",
+        "Brand Identity Systems for Creators",
       ],
-      ctaText: "Create Brand Assets",
+      ctaText: "Package Your Product",
     },
   ];
 
@@ -89,23 +89,23 @@ export default function Services() {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 sm:mb-20">
           <div className="max-w-2xl">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-xs font-semibold uppercase tracking-wider mb-4">
-              Our Agency Expertise
+              Creator Monetization Services
             </div>
             <h2 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
-              Four Core Disciplines. <br />
+              Turn Your Creator Audience Into <br />
               <span className="bg-gradient-to-r from-indigo-400 via-violet-300 to-cyan-400 bg-clip-text text-transparent">
-                One Cohesive Growth Engine.
+                Recurring Digital Revenue.
               </span>
             </h2>
           </div>
           <p className="mt-4 md:mt-0 text-slate-400 max-w-md text-base leading-relaxed">
-            We don&apos;t just deliver isolated services. We fuse cutting-edge software engineering, global publishing, and magnetic media into scalable digital assets.
+            We operate as your full-cycle product studio. We engineer the storefront, author and design the Amazon books, create the digital assets, and edit the viral media to drive sales.
           </p>
         </div>
 
         {/* Services Grid (4 Cards) */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-8">
-          {services.map((service, index) => {
+          {services.map((service) => {
             const Icon = service.icon;
             return (
               <div
@@ -146,7 +146,7 @@ export default function Services() {
                   {/* Deliverables Checklist */}
                   <div className="space-y-2.5 mb-8 pt-4 border-t border-slate-800/80">
                     <div className="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-3">
-                      Key Deliverables:
+                      Included Deliverables:
                     </div>
                     {service.deliverables.map((item, i) => (
                       <div key={i} className="flex items-center gap-2.5 text-xs sm:text-sm text-slate-300">

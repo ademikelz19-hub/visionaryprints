@@ -1,46 +1,46 @@
 "use client";
 
-import { Check, Cpu, Rocket, ShieldCheck, Zap, BarChart3, Users2, Award } from "lucide-react";
+import { Cpu, Rocket, Zap, BarChart3, Award, Check } from "lucide-react";
 
 export default function WhyUs() {
   const steps = [
     {
       step: "01",
-      title: "Strategic Blueprint",
+      title: "Audience & Product Blueprint",
       description:
-        "We dissect your target audience, commercial objectives, and creative vision before writing a single line of code or drafting a manuscript.",
+        "We analyze your creator audience, content niches, and highest-yield monetization opportunities before designing your digital or physical product.",
       icon: Cpu,
     },
     {
       step: "02",
-      title: "Engineering & Craftsmanship",
+      title: "Design & Product Architecture",
       description:
-        "High-performance Next.js architectures, bespoke book illustrations, and psychological video hooks crafted with surgical precision.",
+        "We build high-converting Next.js storefronts, format Amazon KDP manuscripts, illustrate print-ready book covers, and assemble digital assets.",
       icon: Zap,
     },
     {
       step: "03",
-      title: "Amazon & Web Deployment",
+      title: "Amazon & Web Store Launch",
       description:
-        "Global distribution on Amazon KDP, high-speed Vercel deployments, and multi-channel content launches ready for immediate market traction.",
+        "Live deployment on Amazon KDP with worldwide Prime delivery, alongside fast checkout web funnels that allow you to keep maximum profits.",
       icon: Rocket,
     },
     {
       step: "04",
-      title: "Optimization & Scaling",
+      title: "Traffic Funnels & Viral Video",
       description:
-        "Continuous performance monitoring, conversion rate optimization, and asset iteration to drive ongoing revenue and brand authority.",
+        "We craft high-retention short-form video content and social media creative assets to funnel organic audience views straight to your checkout page.",
       icon: BarChart3,
     },
   ];
 
   const highlights = [
-    "Next.js, React & Tailwind CSS Experts",
-    "Amazon KDP Turnkey Publishing Pipeline",
-    "Conversion-Driven UI/UX Design Standards",
-    "High-Retention Short-Form Video Production",
-    "Transparent Timelines & Dedicated Support",
-    "Global Remote Delivery with Proven Track Record",
+    "Turnkey Amazon KDP Publishing (Zero Inventory Risk)",
+    "Custom Next.js & React Digital Product Storefronts",
+    "High-Ticket Digital Downloads, E-Books & Workbooks",
+    "Viral Short-Form Video Funnels (TikTok, Reels, Shorts)",
+    "Zero Tech Overhead: We Handle All Code & Formats",
+    "Maximized Royalty Rates & Direct Creator Monetization",
   ];
 
   return (
@@ -50,16 +50,16 @@ export default function WhyUs() {
         <div className="text-center max-w-3xl mx-auto mb-16 sm:mb-20">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-xs font-semibold uppercase tracking-wider mb-4">
             <Award className="w-3.5 h-3.5 text-indigo-400" />
-            <span>The Visionary Standard</span>
+            <span>The Creator Product Pipeline</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
-            Engineered for Impact. <br />
+            How We Turn Your Ideas Into <br />
             <span className="bg-gradient-to-r from-indigo-400 via-violet-300 to-cyan-400 bg-clip-text text-transparent">
-              Designed for Market Dominance.
+              Profitable Creator Assets.
             </span>
           </h2>
           <p className="mt-5 text-base sm:text-lg text-slate-300/85">
-            We bridge the gap between technical mastery and high-concept creative design. Here is how we turn your vision into an authoritative market reality.
+            Most creators struggle with technical implementation, print formatting, and checkout funnels. We eliminate the friction and build end-to-end products that monetize your brand.
           </p>
         </div>
 
@@ -93,20 +93,20 @@ export default function WhyUs() {
           })}
         </div>
 
-        {/* Highlights & Agency Guarantee Banner */}
+        {/* Highlights & Creator Guarantee Banner */}
         <div className="rounded-3xl bg-gradient-to-r from-slate-900 via-indigo-950/40 to-slate-900 p-8 sm:p-12 border border-slate-800/80 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-96 h-96 bg-indigo-500/10 blur-[100px] pointer-events-none -z-10" />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             <div className="lg:col-span-5">
               <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
-                Why Visionary Prints?
+                Built For Modern Creators
               </span>
               <h3 className="text-2xl sm:text-3xl font-extrabold text-white mt-2 mb-4">
-                You Deserve More Than Just An Agency Vendor.
+                Don&apos;t Just Rely On Ad Revenue and Sponsorships.
               </h3>
               <p className="text-sm text-slate-300/85 leading-relaxed">
-                We take full ownership of your deliverables. Whether it is deploying a lightning-fast web app or launching a multi-format book on Amazon, we build with precision, speed, and creative elegance.
+                Brand deals come and go, but owned digital products and Amazon KDP royalties generate predictable, compounding income month after month. We give you the technical and creative leverage to build your product empire.
               </p>
             </div>
 

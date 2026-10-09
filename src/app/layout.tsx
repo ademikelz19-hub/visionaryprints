@@ -15,25 +15,25 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Visionary Prints | Premier Digital Agency & Publishing House",
+  title: "Visionary Prints | Creator Digital Products & Amazon KDP Studio",
   description:
-    "Visionary Prints is a premier digital agency specializing in high-performance web development, Amazon KDP digital publishing, viral short-form video editing, and impactful content creation.",
+    "Visionary Prints builds high-converting digital products, custom web storefronts, bestselling Amazon KDP books, and viral media funnels for creators and authors.",
   keywords: [
     "Visionary Prints",
-    "Digital Agency",
-    "Web Development",
+    "Digital Products for Creators",
     "Amazon KDP Publishing",
+    "Creator Storefronts",
     "Short-Form Video Editing",
     "Content Creation",
     "Roro and Dodo Tales",
     "EYE BIBLE",
-    "Next.js Agency",
+    "Next.js Digital Agency",
   ],
   authors: [{ name: "Visionary Prints Team" }],
   openGraph: {
-    title: "Visionary Prints | Premier Digital Agency & Publishing House",
+    title: "Visionary Prints | Creator Digital Products & Amazon KDP Studio",
     description:
-      "Transforming ambitious concepts into world-class web applications, Amazon KDP publications, and viral video media.",
+      "Transforming creator IP and audiences into profitable digital storefronts, Amazon KDP books, and viral media engines.",
     url: "https://visionaryprints.vercel.app",
     siteName: "Visionary Prints",
     type: "website",
@@ -41,9 +41,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Visionary Prints | Premier Digital Agency & Publishing House",
+    title: "Visionary Prints | Creator Digital Products & Amazon KDP Studio",
     description:
-      "Specializing in Web Development, Amazon KDP Digital Publishing, Short-Form Video Editing, and Content Creation.",
+      "Transforming creator audiences into profitable digital storefronts, Amazon KDP publications, and viral video funnels.",
   },
   icons: {
     icon: "/favicon.ico",

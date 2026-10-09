@@ -78,7 +78,7 @@ export default function Footer() {
             </Link>
 
             <p className="text-slate-400 text-sm leading-relaxed max-w-sm">
-              Premier digital agency and publishing house. We turn concepts into high-converting web applications, Amazon KDP bestsellers, and viral digital media.
+              Premier digital product studio and publishing house for creators. We turn ideas into high-converting web storefronts, bestselling Amazon KDP books, and viral media funnels.
             </p>
 
             <div className="flex items-center gap-2 pt-2 text-xs text-slate-400">
